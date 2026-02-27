@@ -28,21 +28,21 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 | **d20-card-game** | Phaser 3 · Vanilla JS | Browser card-battle game — all textures procedurally generated, zero image assets | [game01.happykokoro.com](https://game01.happykokoro.com) |
 | **Chaincards** | React · Vite | D20 roguelike deckbuilder with 3 heroes, 13-node maps, shops, and boss fights | [game02.happykokoro.com](https://game02.happykokoro.com) |
 | **ai-roundtable** | FastAPI · React/TS · Claude API | Multi-agent AI debate system — 6 specialized agents discuss software design decisions | [roundtable.happykokoro.com](https://roundtable.happykokoro.com) |
-| **auto-rebalance** | Rust · Docker · Redis · PostgreSQL | Quantitative trading framework with lab, engine, and monitoring services | [alpha.happykokoro.com](https://alpha.happykokoro.com) |
+| **kokoro-alpha-lab** | Rust · Next.js · Redis · Solana | Quantitative alpha framework for Solana — 11-factor signal pipeline, prediction engine, risk management, and MEV-protected execution (28 CIL crates, 709 tests) | [alpha.happykokoro.com](https://alpha.happykokoro.com) |
 
 ### 🛠️ Developer Tools
 
 | Project | Stack | Description |
 |---------|-------|-------------|
 | **agent-orchestra** | Rust · Python FastAPI · SQLite | Multi-agent orchestrator — launches parallel Claude Code agents in isolated git worktrees with a real-time dashboard |
-| **lab-mcp** | TypeScript · MCP SDK · Zod | MCP server exposing 50+ tools for the auto-rebalance trading platform (lab, engine, data, artifacts, admin) |
+| **lab-mcp** | TypeScript · MCP SDK · Zod | MCP server exposing 50+ tools for kokoro-alpha-lab (lab, engine, data, artifacts, admin) |
 
 ### 🏗️ Infrastructure
 
 | Project | Description |
 |---------|-------------|
 | **kokoro-services** | Docker Compose config, Nginx reverse-proxy rules, and runbooks for all self-hosted services |
-| **auto-rebalance-frontend** | Next.js dashboard for the trading system |
+| **kokoro-alpha-lab-frontend** | Next.js dashboard — TradingView charts, Kalman overlays, Pyth oracle feeds, Solana wallet integration |
 
 **Self-hosted services** managed via `kokoro-services`:
 
