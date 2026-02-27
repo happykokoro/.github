@@ -34,6 +34,7 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| **Pipeline-Kokoro** | Rust · TypeScript · React | Automated dev pipeline engine — reads SKILL.md files as programs, orchestrates parallel Claude Code agents through a 5-phase workflow (plan → execute → audit → assemble → report), with a visual pipeline designer and real-time web console |
 | **agent-orchestra** | Rust · Python FastAPI · SQLite | Multi-agent orchestrator — launches parallel Claude Code agents in isolated git worktrees with a real-time dashboard |
 | **lab-mcp** | TypeScript · MCP SDK · Zod | MCP server exposing 50+ tools for kokoro-alpha-lab (lab, engine, data, artifacts, admin) |
 
