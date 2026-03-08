@@ -85,7 +85,7 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 ```
 Languages      Rust · TypeScript · Go · Java · PHP · Python · JavaScript · Kotlin · C/C++ · Dart · C# · SQL · Shell
 Frontend       Next.js 16 · React 19 · Vite · Tailwind v4 · Radix UI · Framer Motion · Electron · Three.js
-Backend        Axum · Actix · Tokio · Gin · Echo · NestJS · Hono · Express · Fastify · FastAPI · Spring Boot 3
+Backend        Axum · Actix · Tokio · Gin · Echo · NestJS · Hono · Express · Fastify · FastAPI · Spring
 PHP            Laravel · Symfony · ThinkPHP · WordPress · WooCommerce · Drupal · FilamentPHP
 Mobile         React Native · Flutter · Expo · Swift/SwiftUI · Kotlin Mobile
 Desktop        Tauri · Electron · electron-builder
@@ -93,7 +93,7 @@ Blockchain     Solana SDK · Anchor 0.30 · SPL Token · Jupiter · Raydium · O
 ZK/Crypto      SNARKs · STARKs · Circom · Noir · zkSync · StarkNet · Polygon zkEVM · MPC
 Cloud-Native   Kubernetes · Helm · Istio · Linkerd · Cilium · ArgoCD · Terraform · Envoy · Consul · Vault
 Cloud          AWS · GCP · Azure · Alibaba Cloud · DigitalOcean · Cloudflare · Vercel
-Enterprise     Spring Cloud Alibaba · Nacos · Sentinel · Seata · Dubbo · Quarkus · GraalVM Native
+Enterprise     Spring Ecosystem · Nacos · Sentinel · Seata · Dubbo · Quarkus · GraalVM Native
 Databases      PostgreSQL · Redis · MySQL · MongoDB · Elasticsearch · SQLite · SQLx
 Search         Elasticsearch · Meilisearch · Typesense · Algolia · OpenSearch
 Messaging      Kafka · NATS · RabbitMQ · RocketMQ · Redis Streams
