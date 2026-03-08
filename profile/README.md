@@ -77,26 +77,37 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 ### Tech Stack
 
 ```
-Languages      Rust · TypeScript · Go · Java · PHP · Python · JavaScript · Kotlin · C/C++ · SQL · Shell
+Languages      Rust · TypeScript · Go · Java · PHP · Python · JavaScript · Kotlin · C/C++ · Dart · C# · SQL · Shell
 Frontend       Next.js 16 · React 19 · Vite · Tailwind v4 · Radix UI · Framer Motion · Electron · Three.js
 Backend        Axum · Actix · Tokio · Gin · Echo · NestJS · Hono · Express · Fastify · FastAPI · Spring Boot 3
 PHP            Laravel · Symfony · ThinkPHP · WordPress · WooCommerce · Drupal · FilamentPHP
+Mobile         React Native · Flutter · Expo · Swift/SwiftUI · Kotlin Mobile
+Desktop        Tauri · Electron · electron-builder
 Blockchain     Solana SDK · Anchor 0.30 · SPL Token · Jupiter · Raydium · Orca · Jito MEV · Go-Ethereum · Polymarket
+ZK/Crypto      SNARKs · STARKs · Circom · Noir · zkSync · StarkNet · Polygon zkEVM · MPC
 Cloud-Native   Kubernetes · Helm · Istio · Linkerd · Cilium · ArgoCD · Terraform · Envoy · Consul · Vault
+Cloud          AWS · GCP · Azure · Alibaba Cloud · DigitalOcean · Cloudflare · Vercel
 Enterprise     Spring Cloud Alibaba · Nacos · Sentinel · Seata · Dubbo · Quarkus · GraalVM Native
 Databases      PostgreSQL · Redis · MySQL · MongoDB · Elasticsearch · SQLite · SQLx
+Search         Elasticsearch · Meilisearch · Typesense · Algolia · OpenSearch
 Messaging      Kafka · NATS · RabbitMQ · RocketMQ · Redis Streams
-AI/ML          Claude API · MCP Protocol (98 tools) · Claude Code SDK · Vercel AI SDK · Deepgram
-Quant          nalgebra · ndarray · statrs · rustfft · wasmtime · petgraph · good_lp
+AI/ML          Claude API · MCP Protocol (98 tools) · Claude Code SDK · LangChain · LlamaIndex · Deepgram
+MLOps          pgvector · Qdrant · Pinecone · Weaviate · Milvus · RAG pipelines
+WASM/Edge      wasm-pack · wasm-bindgen · wasmtime · Cloudflare Workers · Fastly Compute · Deno Deploy
+Quant          nalgebra · ndarray · statrs · rustfft · petgraph · good_lp
+Game           Phaser 3 · WebGL/WebGPU · Godot · Unity · Bevy (Rust)
+Real-Time      WebRTC · LiveKit · MediaSoup · Socket.io · HLS/DASH
 Visualization  TradingView · Recharts · D3.js · Plotly · Chart.js · React Flow
 DevOps         Docker · GitHub Actions · Nginx · PM2 · Certbot · SOPS · Harbor
 Monitoring     Prometheus · Grafana · OpenTelemetry · Jaeger · SkyWalking · Loki · ELK · Uptime Kuma · Umami
+SRE            k6 · Locust · LitmusChaos · Chaos Mesh · SLO/SLI tracking
+Low-Code       Retool · Appsmith · n8n · Temporal · Directus
 Security       JWT · Argon2 · AES-GCM · ChaCha20 · HMAC · TOTP/2FA · cargo-audit
 Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Testing Library
 ```
 
 ---
 
-<sub>84 crates · 18 programs · 1032 tests · 20+ factors · 98 MCP tools · 5 services · 12+ self-hosted apps</sub>
+<sub>250+ technologies · 84 crates · 18 programs · 1032 tests · 20+ factors · 98 MCP tools · 5 services · 12+ self-hosted apps</sub>
 <br/>
 <sub>Hosted on DigitalOcean SGP1 · Proxied through Cloudflare · Managed with Docker Compose + PM2</sub>
