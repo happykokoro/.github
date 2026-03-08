@@ -93,6 +93,7 @@ Search         Elasticsearch · Meilisearch · Typesense · Algolia · OpenSearc
 Messaging      Kafka · NATS · RabbitMQ · RocketMQ · Redis Streams
 AI/ML          Claude API · MCP Protocol (98 tools) · Claude Code SDK · LangChain · LlamaIndex · Deepgram
 MLOps          pgvector · Qdrant · Pinecone · Weaviate · Milvus · RAG pipelines
+Staking        Solana Validator · ETH Beacon · Marinade · Jito StakePool · Lido · Stratum · RPC Nodes
 WASM/Edge      wasm-pack · wasm-bindgen · wasmtime · Cloudflare Workers · Fastly Compute · Deno Deploy
 Quant          nalgebra · ndarray · statrs · rustfft · petgraph · good_lp
 Game           Phaser 3 · WebGL/WebGPU · Godot · Unity · Bevy (Rust)
