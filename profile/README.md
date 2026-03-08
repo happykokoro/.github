@@ -77,16 +77,20 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 ### Tech Stack
 
 ```
-Languages      Rust · TypeScript · Python · JavaScript · Java · PHP · Go · C/C++ · SQL · Shell
+Languages      Rust · TypeScript · Go · Java · PHP · Python · JavaScript · Kotlin · C/C++ · SQL · Shell
 Frontend       Next.js 16 · React 19 · Vite · Tailwind v4 · Radix UI · Framer Motion · Electron · Three.js
-Backend        Axum · Actix · Tokio · Tonic (gRPC) · FastAPI · Express · Fastify · Payload CMS
-Blockchain     Solana SDK · Anchor 0.30 · SPL Token · Jupiter · Raydium · Orca · Jito MEV · Polymarket
-Databases      PostgreSQL · Redis (Streams/Pub-Sub) · SQLite · SQLx
+Backend        Axum · Actix · Tokio · Gin · Echo · NestJS · Hono · Express · Fastify · FastAPI · Spring Boot 3
+PHP            Laravel · Symfony · ThinkPHP · WordPress · WooCommerce · Drupal · FilamentPHP
+Blockchain     Solana SDK · Anchor 0.30 · SPL Token · Jupiter · Raydium · Orca · Jito MEV · Go-Ethereum · Polymarket
+Cloud-Native   Kubernetes · Helm · Istio · Linkerd · Cilium · ArgoCD · Terraform · Envoy · Consul · Vault
+Enterprise     Spring Cloud Alibaba · Nacos · Sentinel · Seata · Dubbo · Quarkus · GraalVM Native
+Databases      PostgreSQL · Redis · MySQL · MongoDB · Elasticsearch · SQLite · SQLx
+Messaging      Kafka · NATS · RabbitMQ · RocketMQ · Redis Streams
 AI/ML          Claude API · MCP Protocol (98 tools) · Claude Code SDK · Vercel AI SDK · Deepgram
 Quant          nalgebra · ndarray · statrs · rustfft · wasmtime · petgraph · good_lp
 Visualization  TradingView · Recharts · D3.js · Plotly · Chart.js · React Flow
-DevOps         Docker · GitHub Actions · Nginx · PM2 · Certbot · SOPS
-Monitoring     Prometheus · Grafana · Uptime Kuma · Umami · OpenTelemetry · tracing
+DevOps         Docker · GitHub Actions · Nginx · PM2 · Certbot · SOPS · Harbor
+Monitoring     Prometheus · Grafana · OpenTelemetry · Jaeger · SkyWalking · Loki · ELK · Uptime Kuma · Umami
 Security       JWT · Argon2 · AES-GCM · ChaCha20 · HMAC · TOTP/2FA · cargo-audit
 Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Testing Library
 ```
