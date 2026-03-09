@@ -16,7 +16,7 @@
 
 **Deep technology studio — quantitative trading, blockchain infrastructure, AI-native development tools, and multi-chain staking.**
 
-One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1032 tests, 98 MCP tools, 250+ technologies — all self-hosted on a single VPS, proxied through Cloudflare.
+One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 MCP tools, 250+ technologies — all self-hosted on a single VPS, proxied through Cloudflare.
 
 [tech.happykokoro.com](https://tech.happykokoro.com) · [happykokoro.com](https://happykokoro.com)
 
@@ -26,7 +26,7 @@ One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1032 tests, 98 M
 
 | Status     | Project                   | Stack                                                 | Description                                                                                                                                                      |
 | ---------- | ------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🟢 Live    | **Kokoro Alpha Lab**      | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 84 crates, 20+ alpha factors, IMM/RBPF prediction models, smart-money wallet clustering, MEV-protected Jito execution, 1032 tests |
+| 🟢 Live    | **Kokoro Alpha Lab**      | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 84 crates, 20+ alpha factors, IMM/RBPF prediction models, smart-money wallet clustering, MEV-protected Jito execution, 1118 tests |
 | 🟢 Live    | **Pipeline Kokoro**       | Rust · TypeScript · React · MCP                       | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 18 skill modules, 20 MCP tools              |
 | 🔵 Built   | **Kokoro Protocol**       | Rust · Anchor · Solana · TypeScript                   | Fully on-chain DeFi protocol — 18 Anchor programs: prediction markets, lending, leveraged positions, yield vaults, AMM DEX, DAO governance, VRF fairness         |
 | 🔵 Built   | **Kokoro Pay**            | Rust · Next.js · Solana · PostgreSQL                  | Crypto payment gateway — USDC/SOL monitoring, automated license activation, multi-tenant SaaS, AES-GCM encrypted storage                                         |
@@ -115,6 +115,6 @@ Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Te
 
 ---
 
-<sub>9 products · 250+ technologies · 84 crates · 18 programs · 1032 tests · 98 MCP tools · 28 service categories · 12+ self-hosted apps</sub>
+<sub>9 products · 250+ technologies · 84 crates · 18 programs · 1118 tests · 98 MCP tools · 28 service categories · 12+ self-hosted apps</sub>
 <br/>
 <sub>Hosted on DigitalOcean SGP1 · Proxied through Cloudflare · Managed with Docker Compose + PM2</sub>
