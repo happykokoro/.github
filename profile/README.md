@@ -65,7 +65,18 @@ One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 M
 
 ### Self-Hosted Infrastructure
 
-Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk · SGP1), managed with Docker Compose, PM2, and Nginx.
+3 servers across DigitalOcean and AWS, managed with Docker Compose, PM2, Nginx, and systemd.
+
+#### DigitalOcean SGP1 — Main Services
+
+| Spec | Value |
+|---|---|
+| **Region** | Singapore (SGP1) |
+| **IP** | 167.172.70.15 |
+| **Specs** | 2 vCPU / 4 GB RAM / 120 GB SSD |
+| **OS** | Ubuntu |
+| **Purpose** | Web services, dashboards, self-hosted tools |
+| **Proxy** | Cloudflare |
 
 | Service            | Purpose                          | URL                                                            |
 | ------------------ | -------------------------------- | -------------------------------------------------------------- |
@@ -79,6 +90,38 @@ Everything runs on one DigitalOcean droplet (2 vCPU · 4 GB RAM · 120 GB disk �
 | Shlink             | URL shortener                    | [link.happykokoro.com](https://link.happykokoro.com)           |
 | Linkding           | Bookmark manager                 | [bookmarks.happykokoro.com](https://bookmarks.happykokoro.com) |
 | Syncthing          | File synchronization             | [sync.happykokoro.com](https://sync.happykokoro.com)           |
+
+#### AWS Ireland (eu-west-1) — Trading Bot
+
+| Spec | Value |
+|---|---|
+| **Region** | Ireland (eu-west-1) |
+| **Instance** | t3.medium / 2 vCPU / 4 GB RAM |
+| **Storage** | 25 GB gp3 EBS (20 GB free) |
+| **OS** | Ubuntu 24.04 LTS |
+| **Purpose** | Polymarket trading bot execution + real-time data collection |
+
+| Service | Description |
+|---|---|
+| **polybot** (v5.1) | Symmetric volatility harvesting bot — BTC/ETH/SOL/XRP, 5-min binary options, GTC pre-orders, emergency pause system |
+| **tick-collector** | Real-time WebSocket tick collector — price changes, trades, order book diffs (systemd) |
+
+| Repo | [anescaper/My-First-Bot](https://github.com/anescaper/My-First-Bot) |
+|---|---|
+
+#### AWS London (eu-west-2) — Data & Analysis
+
+| Spec | Value |
+|---|---|
+| **Region** | London (eu-west-2) |
+| **Instance** | t3.medium / 2 vCPU / 4 GB RAM |
+| **Storage** | 30 GB gp3 EBS (12 GB free) |
+| **OS** | Ubuntu 24.04 LTS |
+| **Purpose** | Market data storage and analysis |
+
+| Service | Description |
+|---|---|
+| **tick-data** | 7 GB SQLite DB — 800K+ price ticks, 1.6M+ order book diffs, 656 rounds across BTC/ETH/SOL/XRP 5-min markets |
 
 ### Tech Stack
 
