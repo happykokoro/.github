@@ -16,7 +16,7 @@
 
 **Deep technology studio — quantitative trading, blockchain infrastructure, AI-native development tools, and multi-chain staking.**
 
-One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 MCP tools, 250+ technologies — all self-hosted on a single VPS, proxied through Cloudflare.
+One founder. Twelve products. 65+ Rust crates, 20 Anchor programs, 1118 tests, 98 MCP tools, 250+ technologies — all self-hosted on a single VPS, proxied through Cloudflare.
 
 [tech.happykokoro.com](https://tech.happykokoro.com) · [happykokoro.com](https://happykokoro.com)
 
@@ -24,17 +24,20 @@ One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 M
 
 ### Product Portfolio
 
-| Status     | Project                   | Stack                                                 | Description                                                                                                                                                      |
-| ---------- | ------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🟢 Live    | **Kokoro Alpha Lab**      | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 84 crates, 20+ alpha factors, IMM/RBPF prediction models, smart-money wallet clustering, MEV-protected Jito execution, 1118 tests |
-| 🟢 Live    | **Pipeline Kokoro**       | Rust · TypeScript · React · MCP                       | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 18 skill modules, 20 MCP tools              |
-| 🔵 Built   | **Kokoro Protocol**       | Rust · Anchor · Solana · TypeScript                   | Fully on-chain DeFi protocol — 18 Anchor programs: prediction markets, lending, leveraged positions, yield vaults, AMM DEX, DAO governance, VRF fairness         |
-| 🔵 Built   | **Kokoro Pay**            | Rust · Next.js · Solana · PostgreSQL                  | Crypto payment gateway — USDC/SOL monitoring, automated license activation, multi-tenant SaaS, AES-GCM encrypted storage                                         |
-| 🟡 Dev     | **Kokoro Agent Platform** | Rust · TypeScript · React · MCP · Docker              | Hosted AI development agent platform — multi-agent orchestration, visual pipeline designer, team collaboration, subscription tiers                               |
-| 🟡 Dev     | **MCP Marketplace**       | TypeScript · MCP SDK · Zod · Next.js · Stripe         | Marketplace for packaged MCP tool servers — themed packs for trading, blockchain, DevOps, one-command install                                                    |
-| 🟡 Dev     | **Kokoro Staking**        | Rust · TypeScript · Next.js · PostgreSQL · Redis      | Multi-chain staking aggregator — ETH, SOL, ATOM, DOT, AVAX, SUI, validator monitoring, restaking optimizer, tax reports                                          |
-| ⚪ Planned | **Kokoro Stack**          | Docker · Nginx · Shell · Go                           | One-click self-hosted infrastructure kit — 12+ pre-configured services, auto SSL, backup scripts                                                                 |
-| ⚪ Planned | **Kokoro Validator**      | Rust · TypeScript · Next.js · PostgreSQL · Prometheus | B2B validator monitoring SaaS — multi-chain fleet management, SLA tracking, slashing alerts, white-label option                                                  |
+| Status      | Project                    | Stack                                                 | Description                                                                                                                                                             |
+| ----------- | -------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🟢 Live     | **Kokoro Alpha Lab**       | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 65+ crates, 20+ alpha factors, IMM/RBPF prediction models, smart-money wallet clustering, MEV-protected Jito execution, 1118 tests       |
+| 🟢 Live     | **Pipeline Kokoro**        | Rust · TypeScript · React · MCP                       | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 18 skill modules, 20 MCP tools                     |
+| 🟢 Live     | **Kokoro MM**              | Rust · Next.js · PostgreSQL · Redis                   | Polymarket AMM SaaS — automated market making for binary prediction markets, 18 crates, 472 tests, 49 API endpoints                                                     |
+| 🟢 Live     | **Kokoro Staking**         | Rust · TypeScript · Next.js · PostgreSQL · Redis      | Multi-chain staking aggregator — ETH, SOL, ATOM, DOT, AVAX, SUI, validator monitoring, restaking optimizer, tax reports                                                 |
+| 🟢 Deployed | **Kokoro Liquidation Bot** | Rust · Tokio · Ethers                                 | Multi-chain DeFi liquidation engine — 6 EVM chains + Solana, 8 crates, flash loan execution, 28 tests                                                                   |
+| 🔵 Built    | **Kokoro Protocol**        | Rust · Anchor · Solana · TypeScript                   | Fully on-chain DeFi protocol — 20 Anchor programs, 11 game types: prediction markets, lending, leveraged positions, yield vaults, AMM DEX, DAO governance, VRF fairness |
+| 🔵 Built    | **Kokoro Pay**             | Rust · Next.js · Solana · PostgreSQL                  | Crypto payment gateway — USDC/SOL monitoring, automated license activation, multi-tenant SaaS, AES-GCM encrypted storage                                                |
+| 🟡 Dev      | **Kokoro Agent Platform**  | Rust · TypeScript · React · MCP · Docker              | Hosted AI development agent platform — multi-agent orchestration, visual pipeline designer, team collaboration, subscription tiers                                      |
+| 🟡 Dev      | **MCP Marketplace**        | TypeScript · MCP SDK · Zod · Next.js · Stripe         | Marketplace for packaged MCP tool servers — themed packs for trading, blockchain, DevOps, one-command install                                                           |
+| 🟠 Stopped  | **Kokoro Polymarket Bot**  | Rust · Python                                         | Polymarket trading bot — 6-step pipeline (Scan/Research/Predict/Risk/Execute/Compound), strategy replacement pending                                                    |
+| ⚪ Planned  | **Kokoro Stack**           | Docker · Nginx · Shell · Go                           | One-click self-hosted infrastructure kit — 12+ pre-configured services, auto SSL, backup scripts                                                                        |
+| ⚪ Planned  | **Kokoro Validator**       | Rust · TypeScript · Next.js · PostgreSQL · Prometheus | B2B validator monitoring SaaS — multi-chain fleet management, SLA tracking, slashing alerts, white-label option                                                         |
 
 ### Ecosystem Services
 
@@ -69,14 +72,14 @@ One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 M
 
 #### DigitalOcean SGP1 — Main Services
 
-| Spec | Value |
-|---|---|
-| **Region** | Singapore (SGP1) |
-| **IP** | 167.172.70.15 |
-| **Specs** | 2 vCPU / 4 GB RAM / 120 GB SSD |
-| **OS** | Ubuntu |
+| Spec        | Value                                       |
+| ----------- | ------------------------------------------- |
+| **Region**  | Singapore (SGP1)                            |
+| **IP**      | 167.172.70.15                               |
+| **Specs**   | 2 vCPU / 4 GB RAM / 120 GB SSD              |
+| **OS**      | Ubuntu                                      |
 | **Purpose** | Web services, dashboards, self-hosted tools |
-| **Proxy** | Cloudflare |
+| **Proxy**   | Cloudflare                                  |
 
 | Service            | Purpose                          | URL                                                            |
 | ------------------ | -------------------------------- | -------------------------------------------------------------- |
@@ -91,36 +94,38 @@ One founder. Nine products. 84 Rust crates, 18 Anchor programs, 1118 tests, 98 M
 | Linkding           | Bookmark manager                 | [bookmarks.happykokoro.com](https://bookmarks.happykokoro.com) |
 | Syncthing          | File synchronization             | [sync.happykokoro.com](https://sync.happykokoro.com)           |
 
-#### AWS Ireland (eu-west-1) — Trading Bot
+#### AWS Ireland (eu-west-1) — Trading Bots & MM
 
-| Spec | Value |
-|---|---|
-| **Region** | Ireland (eu-west-1) |
-| **Instance** | t3.medium / 2 vCPU / 4 GB RAM |
-| **Storage** | 25 GB gp3 EBS (20 GB free) |
-| **OS** | Ubuntu 24.04 LTS |
-| **Purpose** | Polymarket trading bot execution + real-time data collection |
+| Spec         | Value                                                |
+| ------------ | ---------------------------------------------------- |
+| **Region**   | Ireland (eu-west-1)                                  |
+| **Instance** | t3.medium / 2 vCPU / 4 GB RAM                        |
+| **Storage**  | 25 GB gp3 EBS (20 GB free)                           |
+| **OS**       | Ubuntu 24.04 LTS                                     |
+| **Purpose**  | Polymarket trading bot, MM platform, liquidation bot |
 
-| Service | Description |
-|---|---|
-| **polybot** (v5.1) | Symmetric volatility harvesting bot — BTC/ETH/SOL/XRP, 5-min binary options, GTC pre-orders, emergency pause system |
-| **tick-collector** | Real-time WebSocket tick collector — price changes, trades, order book diffs (systemd) |
+| Service                    | Description                                                                            |
+| -------------------------- | -------------------------------------------------------------------------------------- |
+| **kokoro-mm**              | Polymarket AMM SaaS — automated market making for binary prediction markets            |
+| **kokoro-liquidation-bot** | Multi-chain DeFi liquidation engine — 6 EVM chains + Solana, port 4400                 |
+| **polybot** (v5.1)         | Symmetric volatility harvesting bot — BTC/ETH/SOL/XRP, 5-min binary options (STOPPED)  |
+| **tick-collector**         | Real-time WebSocket tick collector — price changes, trades, order book diffs (systemd) |
 
 | Repo | [anescaper/My-First-Bot](https://github.com/anescaper/My-First-Bot) |
-|---|---|
+| ---- | ------------------------------------------------------------------- |
 
 #### AWS London (eu-west-2) — Data & Analysis
 
-| Spec | Value |
-|---|---|
-| **Region** | London (eu-west-2) |
-| **Instance** | t3.medium / 2 vCPU / 4 GB RAM |
-| **Storage** | 30 GB gp3 EBS (12 GB free) |
-| **OS** | Ubuntu 24.04 LTS |
-| **Purpose** | Market data storage and analysis |
+| Spec         | Value                            |
+| ------------ | -------------------------------- |
+| **Region**   | London (eu-west-2)               |
+| **Instance** | t3.medium / 2 vCPU / 4 GB RAM    |
+| **Storage**  | 30 GB gp3 EBS (12 GB free)       |
+| **OS**       | Ubuntu 24.04 LTS                 |
+| **Purpose**  | Market data storage and analysis |
 
-| Service | Description |
-|---|---|
+| Service       | Description                                                                                                 |
+| ------------- | ----------------------------------------------------------------------------------------------------------- |
 | **tick-data** | 7 GB SQLite DB — 800K+ price ticks, 1.6M+ order book diffs, 656 rounds across BTC/ETH/SOL/XRP 5-min markets |
 
 ### Tech Stack
@@ -158,6 +163,6 @@ Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Te
 
 ---
 
-<sub>9 products · 250+ technologies · 84 crates · 18 programs · 1118 tests · 98 MCP tools · 28 service categories · 12+ self-hosted apps</sub>
+<sub>12 products · 250+ technologies · 65+ crates · 20 programs · 1118 tests · 98 MCP tools · 28 service categories · 12+ self-hosted apps</sub>
 <br/>
 <sub>Hosted on DigitalOcean SGP1 · Proxied through Cloudflare · Managed with Docker Compose + PM2</sub>
