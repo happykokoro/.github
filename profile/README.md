@@ -16,7 +16,7 @@
 
 **Deep technology studio — quantitative trading, blockchain infrastructure, AI-native development tools, and multi-chain staking.**
 
-One founder. Fourteen products. 85+ Rust crates, 20 Anchor programs, 1118 tests, 98 MCP tools, 250+ technologies — self-hosted across 3 servers, proxied through Cloudflare.
+One founder. Fourteen products. 85+ Rust crates, 20 Anchor programs, 1118 tests, 106 MCP tools, 250+ technologies — self-hosted across 3 servers, proxied through Cloudflare.
 
 [tech.happykokoro.com](https://tech.happykokoro.com) · [happykokoro.com](https://happykokoro.com) · [mm.happykokoro.com](https://mm.happykokoro.com)
 
@@ -28,9 +28,9 @@ One founder. Fourteen products. 85+ Rust crates, 20 Anchor programs, 1118 tests,
 | ----------- | -------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 🟢 Live     | **Kokoro Alpha Lab**       | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 65+ crates, CIL architecture, multi-asset (Solana, Polymarket, equities, forex, options), Copilot + Market Intel APIs, MEV-protected Jito execution   |
 | 🟢 Live     | **Kokoro MM**              | Rust · Next.js · PostgreSQL · Redis · Alloy           | Polymarket AMM SaaS — multi-tenant, 18 crates, 69 API routes, CTF minting, 4 quoting strategies (A-S, signal-skewed, laddered, manual), EIP-712 signing, billing integration         |
-| 🟢 Live     | **Kokoro Polymarket Bot**  | Rust · Python · Tokio · Redis                         | Polymarket prediction market trading — 6 parallel instances, multi-strategy architecture, 6-step pipeline (Scan/Research/Predict/Risk/Execute/Compound)                              |
-| 🟢 Live     | **Pipeline Kokoro**        | TypeScript · React · MCP                              | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 18 skill modules, 20 MCP tools                                  |
-| 🟢 Live     | **Kokoro Staking**         | Rust · TypeScript · Next.js · PostgreSQL · Redis      | Multi-chain staking aggregator — ETH, SOL, ATOM, DOT, AVAX, SUI, validator monitoring, restaking optimizer, tax reports                                                              |
+| 🟢 Live     | **Kokoro Polymarket Bot**  | Rust · Python · Tokio · Redis                         | Polymarket prediction market trading — dual-stack prediction (Rust+Python), Brownian Bridge + GARCH-t, multi-strategy, risk-gated execution                                          |
+| 🟢 Live     | **Pipeline Kokoro**        | TypeScript · React · MCP                              | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 19 skill modules, 20 MCP tools                                  |
+| 🟢 Live     | **Kokoro Staking**         | Go · Next.js · PostgreSQL · Redis                     | Multi-chain staking aggregator — 17 chain adapters, SIWE auth, validator explorer, portfolio dashboard, ETH/SOL staking execution                                                    |
 | 🟢 Live     | **Kokoro VPN**             | Rust · Axum · WireGuard · Tauri v2 · Terraform        | Self-hosted WireGuard VPN platform — client VPN (hub-and-spoke) + mesh VPN (full-mesh server interconnect), Rust API, CLI tool, Tauri desktop app, firewall ACLs, Prometheus metrics |
 | 🟢 Deployed | **Kokoro Liquidation Bot** | Rust · Alloy · Foundry · Solidity                     | EVM liquidation bot — 4 protocols (Aave V3, Seamless, Compound V3, Moonwell) across 6 chains, Flashbots MEV protection, on-chain FlashLiquidator contract, mempool oracle            |
 | 🟢 Deployed | **Kokoro Protocol**        | Rust · Anchor · Solana · TypeScript                   | Fully on-chain DeFi protocol — 20 Anchor programs, 11 game types: prediction markets, lending, leveraged positions, yield vaults, AMM DEX, DAO governance, VRF fairness              |
