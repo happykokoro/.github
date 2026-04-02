@@ -16,7 +16,7 @@
 
 **Deep technology studio — quantitative trading, blockchain infrastructure, AI-native development tools, and multi-chain staking.**
 
-One founder. 21 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor programs, 8 NAPI addons, 116 MCP tools, 12 exchange adapters — self-hosted across 3 servers, proxied through Cloudflare.
+One founder. 20 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor programs, 8 NAPI addons, 116 MCP tools, 12 exchange adapters — self-hosted across 3 servers, proxied through Cloudflare.
 
 [tech.happykokoro.com](https://tech.happykokoro.com) · [happykokoro.com](https://happykokoro.com) · [mm.happykokoro.com](https://mm.happykokoro.com) · [terminal.happykokoro.com](https://terminal.happykokoro.com)
 
@@ -175,6 +175,6 @@ Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Te
 
 ---
 
-<sub>21 repos · 150K+ lines · 85+ crates · 8 NAPI addons · 20 programs · 116 MCP tools · 12 exchanges · 3 Solidity contracts · 30+ containers</sub>
+<sub>20 repos · 150K+ lines · 85+ crates · 8 NAPI addons · 20 programs · 116 MCP tools · 12 exchanges · 3 Solidity contracts · 30+ containers</sub>
 <br/>
 <sub>3 servers across DigitalOcean & AWS · Proxied through Cloudflare · Managed with Docker Compose + PM2 + Caddy</sub>
