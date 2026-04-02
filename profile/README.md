@@ -16,7 +16,7 @@
 
 **Deep technology studio — quantitative trading, blockchain infrastructure, AI-native development tools, and multi-chain staking.**
 
-One founder. 22 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor programs, 8 NAPI addons, 116 MCP tools, 12 exchange adapters — self-hosted across 3 servers, proxied through Cloudflare.
+One founder. 21 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor programs, 8 NAPI addons, 116 MCP tools, 12 exchange adapters — self-hosted across 3 servers, proxied through Cloudflare.
 
 [tech.happykokoro.com](https://tech.happykokoro.com) · [happykokoro.com](https://happykokoro.com) · [mm.happykokoro.com](https://mm.happykokoro.com) · [terminal.happykokoro.com](https://terminal.happykokoro.com)
 
@@ -29,7 +29,6 @@ One founder. 22 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor pr
 | 🟡 Dev      | **Kokoro Terminal**        | TypeScript · Bun · Rust NAPI · WebGL · Solidity       | Professional crypto market data terminal — 9 exchange adapters, orderbook heatmap, footprint, VPVR/TPO/CVD, 8 Rust NAPI compute units, trade execution, AI copilot, backtesting, smart contract vault, Polymarket, strategy marketplace, multi-asset |
 | 🟢 Live     | **Kokoro Alpha Lab**       | Rust · Next.js · Redis · PostgreSQL · Solana          | Quantitative alpha framework — 65+ crates, CIL architecture, multi-asset (Solana, Polymarket, equities, forex, options), Copilot + Market Intel APIs, MEV-protected Jito execution                                                                   |
 | 🟢 Live     | **Kokoro MM**              | Rust · Next.js · PostgreSQL · Redis · Alloy           | Polymarket AMM SaaS — multi-tenant, 18 crates, 69 API routes, CTF minting, 4 quoting strategies (A-S, signal-skewed, laddered, manual), EIP-712 signing, billing integration                                                                         |
-| 🟢 Live     | **Kokoro Polymarket Bot**  | Rust · Python · Tokio · Redis                         | Polymarket prediction market trading — dual-stack prediction (Rust+Python), Brownian Bridge + GARCH-t, multi-strategy, risk-gated execution                                                                                                          |
 | 🟢 Live     | **Pipeline Kokoro**        | TypeScript · React · MCP                              | Automated dev pipeline engine — orchestrates Claude Code agents through 5-phase workflows, visual pipeline designer, 19 skill modules, 20 MCP tools                                                                                                  |
 | 🟢 Live     | **Kokoro Staking**         | Go · Next.js · PostgreSQL · Redis                     | Multi-chain staking aggregator — 17 chain adapters, SIWE auth, validator explorer, portfolio dashboard, ETH/SOL staking execution                                                                                                                    |
 | 🟢 Live     | **Kokoro VPN**             | Rust · Axum · WireGuard · Tauri v2 · Terraform        | Self-hosted WireGuard VPN platform — client VPN (hub-and-spoke) + mesh VPN (full-mesh server interconnect), Rust API, CLI tool, Tauri desktop app, firewall ACLs, Prometheus metrics                                                                 |
@@ -105,7 +104,6 @@ One founder. 22 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor pr
 | --------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | **Kokoro Alpha Lab**        | Quantitative alpha framework — lab, engine, platform, MCP, monitoring (11 containers) | [alpha.happykokoro.com](https://alpha.happykokoro.com)           |
 | **Kokoro Liquidation Bot**  | Multi-chain DeFi liquidation engine — port 4400                                       | —                                                                |
-| **Kokoro Polymarket Bot**   | 6 parallel bot instances + strategy-service + data-hub (8 containers)                 | —                                                                |
 | **Kokoro Terminal**         | Market data terminal — data-ingest, api-gateway, 9 exchange WebSocket feeds           | [terminal.happykokoro.com](https://terminal.happykokoro.com)     |
 | **Kokoro Auth**             | Unified SSO — authentication, subscriptions, OIDC                                     | — (internal :4050)                                               |
 | **Kokoro Protocol Backend** | On-chain protocol backend — Solana RPC integration                                    | [protocol.happykokoro.com](https://protocol.happykokoro.com)     |
@@ -177,6 +175,6 @@ Testing        cargo test · Vitest · Playwright · pytest · Anchor test · Te
 
 ---
 
-<sub>22 repos · 150K+ lines · 85+ crates · 8 NAPI addons · 20 programs · 116 MCP tools · 12 exchanges · 3 Solidity contracts · 30+ containers</sub>
+<sub>21 repos · 150K+ lines · 85+ crates · 8 NAPI addons · 20 programs · 116 MCP tools · 12 exchanges · 3 Solidity contracts · 30+ containers</sub>
 <br/>
 <sub>3 servers across DigitalOcean & AWS · Proxied through Cloudflare · Managed with Docker Compose + PM2 + Caddy</sub>
