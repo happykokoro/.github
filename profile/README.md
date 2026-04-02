@@ -55,11 +55,9 @@ One founder. 20 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor pr
 
 ### Developer Tools
 
-| Project             | Stack                           | Description                                                                                                                                                                                           |
-| ------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **agent-orchestra** | Python FastAPI · SQLite         | Multi-agent orchestrator — parallel Claude Code agents in isolated git worktrees, GM pipeline (launch → wait → analyze → merge → build → test), human-in-the-loop approval gates, real-time dashboard |
-| **claude-init**     | Python (zero deps)              | CLI tool for bootstrapping Claude Code projects — detects language/framework, generates CLAUDE.md, settings, agents, skills, and commands                                                             |
-| **ai-roundtable**   | FastAPI · React/TS · Claude API | Multi-agent AI debate system — 5 specialized agents + arbitrator discuss software design, generate SRS/SDD/TestPlan/ADR documents                                                                     |
+| Project         | Stack              | Description                                                                                                                               |
+| --------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **claude-init** | Python (zero deps) | CLI tool for bootstrapping Claude Code projects — detects language/framework, generates CLAUDE.md, settings, agents, skills, and commands |
 
 ### Websites
 
@@ -100,17 +98,16 @@ One founder. 20 repositories. 150K+ lines of code, 85+ Rust crates, 20 Anchor pr
 
 **Applications & Trading Bots**
 
-| Service                     | Description                                                                           | URL                                                              |
-| --------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Kokoro Alpha Lab**        | Quantitative alpha framework — lab, engine, platform, MCP, monitoring (11 containers) | [alpha.happykokoro.com](https://alpha.happykokoro.com)           |
-| **Kokoro Liquidation Bot**  | Multi-chain DeFi liquidation engine — port 4400                                       | —                                                                |
-| **Kokoro Terminal**         | Market data terminal — data-ingest, api-gateway, 9 exchange WebSocket feeds           | [terminal.happykokoro.com](https://terminal.happykokoro.com)     |
-| **Kokoro Auth**             | Unified SSO — authentication, subscriptions, OIDC                                     | — (internal :4050)                                               |
-| **Kokoro Protocol Backend** | On-chain protocol backend — Solana RPC integration                                    | [protocol.happykokoro.com](https://protocol.happykokoro.com)     |
-| **Kokoro Staking**          | Multi-chain staking aggregator                                                        | [staking.happykokoro.com](https://staking.happykokoro.com)       |
-| **Kokoro Tech**             | Company website (static export)                                                       | [tech.happykokoro.com](https://tech.happykokoro.com)             |
-| **Pipeline Kokoro**         | AI development pipeline engine                                                        | [pipeline.happykokoro.com](https://pipeline.happykokoro.com)     |
-| **AI Roundtable**           | Multi-agent AI debate system                                                          | [roundtable.happykokoro.com](https://roundtable.happykokoro.com) |
+| Service                     | Description                                                                           | URL                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Kokoro Alpha Lab**        | Quantitative alpha framework — lab, engine, platform, MCP, monitoring (11 containers) | [alpha.happykokoro.com](https://alpha.happykokoro.com)       |
+| **Kokoro Liquidation Bot**  | Multi-chain DeFi liquidation engine — port 4400                                       | —                                                            |
+| **Kokoro Terminal**         | Market data terminal — data-ingest, api-gateway, 9 exchange WebSocket feeds           | [terminal.happykokoro.com](https://terminal.happykokoro.com) |
+| **Kokoro Auth**             | Unified SSO — authentication, subscriptions, OIDC                                     | — (internal :4050)                                           |
+| **Kokoro Protocol Backend** | On-chain protocol backend — Solana RPC integration                                    | [protocol.happykokoro.com](https://protocol.happykokoro.com) |
+| **Kokoro Staking**          | Multi-chain staking aggregator                                                        | [staking.happykokoro.com](https://staking.happykokoro.com)   |
+| **Kokoro Tech**             | Company website (static export)                                                       | [tech.happykokoro.com](https://tech.happykokoro.com)         |
+| **Pipeline Kokoro**         | AI development pipeline engine                                                        | [pipeline.happykokoro.com](https://pipeline.happykokoro.com) |
 
 #### AWS Ireland (eu-west-1) — Market Making
 
